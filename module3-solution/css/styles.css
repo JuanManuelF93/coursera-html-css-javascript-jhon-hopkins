@@ -1,6 +1,7 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .navbar {
     position: sticky;
     top: 0;
@@ -8,14 +9,15 @@ body {
     transition: opacity 0.5s;
 }
 
-.page-header {
-    text-align: center;
+.navbar-hidden {
+    transition: top 0.3s;
 }
 
-#navbar-menu{
+#navbar-menu {
     .nav-item:first-child {
         margin-top: 15px;
     }
+
     .nav-item {
         border: 2px solid #000;
         border-radius: 5px;
@@ -25,7 +27,8 @@ body {
 }
 
 .bg-section {
-    background-color:  #dd7b0c41;;
+    background-color: #dd7b0c41;
+    ;
 }
 
 .text-justify {
